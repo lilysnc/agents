@@ -15,7 +15,3 @@ modelPresets:
       designer: openai-codex/gpt-6-astra:medium
       image: xai/grok-imagine-image
     defaultThinkingLevel: medium
-  codex-astra-fast:
-    modelRoles:
-      default: openai-codex/gpt-6-astra:low
-      smol: openai-codex/gpt-6-astra:low
