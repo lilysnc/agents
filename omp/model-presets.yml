@@ -1,0 +1,17 @@
+# OMP model presets pulled by omp-remote-presets before every /modelpreset command.
+# Schema matches the `modelPresets` section of ~/.omp/agent/config.yml.
+modelPresets:
+  codex-astra:
+    modelRoles:
+      default: openai-codex/gpt-6-astra:medium
+      smol: openai-codex/gpt-6-astra:low
+      slow: openai-codex/gpt-6-astra:high
+      plan: openai-codex/gpt-6-astra:high
+      task: openai-codex/gpt-6-astra:medium
+      advisor: openai-codex/gpt-6-astra:xhigh
+      commit: openai-codex/gpt-6-astra:low
+      tiny: openai-codex/gpt-6-astra:low
+      vision: openai-codex/gpt-6-astra:medium
+      designer: openai-codex/gpt-6-astra:medium
+      image: xai/grok-imagine-image
+    defaultThinkingLevel: medium
